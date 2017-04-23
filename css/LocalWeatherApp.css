@@ -1,0 +1,63 @@
+ html,
+ body,
+ .container-table {
+   height: 100%;
+ }
+ 
+ #mainContainer {}
+ 
+ #weatherIcon {}
+ 
+ .clearDay {
+   color: white;
+   background: rgba(181, 221, 238, 1);
+   background: -moz-linear-gradient(top, rgba(181, 221, 238, 1) 0%, rgba(181, 221, 238, 1) 1%, rgba(42, 188, 229, 1) 51%, rgba(190, 226, 239, 1) 100%);
+   background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(181, 221, 238, 1)), color-stop(1%, rgba(181, 221, 238, 1)), color-stop(51%, rgba(42, 188, 229, 1)), color-stop(100%, rgba(190, 226, 239, 1)));
+   background: -webkit-linear-gradient(top, rgba(181, 221, 238, 1) 0%, rgba(181, 221, 238, 1) 1%, rgba(42, 188, 229, 1) 51%, rgba(190, 226, 239, 1) 100%);
+   background: -o-linear-gradient(top, rgba(181, 221, 238, 1) 0%, rgba(181, 221, 238, 1) 1%, rgba(42, 188, 229, 1) 51%, rgba(190, 226, 239, 1) 100%);
+   background: -ms-linear-gradient(top, rgba(181, 221, 238, 1) 0%, rgba(181, 221, 238, 1) 1%, rgba(42, 188, 229, 1) 51%, rgba(190, 226, 239, 1) 100%);
+   background: linear-gradient(to bottom, rgba(181, 221, 238, 1) 0%, rgba(181, 221, 238, 1) 1%, rgba(42, 188, 229, 1) 51%, rgba(190, 226, 239, 1) 100%);
+   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#b5ddee', endColorstr='#bee2ef', GradientType=0);
+ }
+ 
+ .clearMorning {
+   background: rgba(241, 237, 252, 1);
+   background: -moz-linear-gradient(top, rgba(241, 237, 252, 1) 0%, rgba(212, 167, 251, 1) 53%, rgba(202, 134, 253, 1) 67%, rgba(193, 122, 255, 1) 100%);
+   background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(241, 237, 252, 1)), color-stop(53%, rgba(212, 167, 251, 1)), color-stop(67%, rgba(202, 134, 253, 1)), color-stop(100%, rgba(193, 122, 255, 1)));
+   background: -webkit-linear-gradient(top, rgba(241, 237, 252, 1) 0%, rgba(212, 167, 251, 1) 53%, rgba(202, 134, 253, 1) 67%, rgba(193, 122, 255, 1) 100%);
+   background: -o-linear-gradient(top, rgba(241, 237, 252, 1) 0%, rgba(212, 167, 251, 1) 53%, rgba(202, 134, 253, 1) 67%, rgba(193, 122, 255, 1) 100%);
+   background: -ms-linear-gradient(top, rgba(241, 237, 252, 1) 0%, rgba(212, 167, 251, 1) 53%, rgba(202, 134, 253, 1) 67%, rgba(193, 122, 255, 1) 100%);
+   background: linear-gradient(to bottom, rgba(241, 237, 252, 1) 0%, rgba(212, 167, 251, 1) 53%, rgba(202, 134, 253, 1) 67%, rgba(193, 122, 255, 1) 100%);
+   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f1edfc', endColorstr='#c17aff', GradientType=0);
+ }
+ 
+ .clearNight {
+   color: white;
+   background: rgba(122, 122, 122, 1);
+   background: -moz-linear-gradient(top, rgba(122, 122, 122, 1) 0%, rgba(143, 143, 143, 1) 12%, rgba(115, 115, 115, 1) 28%, rgba(69, 69, 69, 1) 98%, rgba(163, 163, 163, 1) 100%);
+   background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(122, 122, 122, 1)), color-stop(12%, rgba(143, 143, 143, 1)), color-stop(28%, rgba(115, 115, 115, 1)), color-stop(98%, rgba(69, 69, 69, 1)), color-stop(100%, rgba(163, 163, 163, 1)));
+   background: -webkit-linear-gradient(top, rgba(122, 122, 122, 1) 0%, rgba(143, 143, 143, 1) 12%, rgba(115, 115, 115, 1) 28%, rgba(69, 69, 69, 1) 98%, rgba(163, 163, 163, 1) 100%);
+   background: -o-linear-gradient(top, rgba(122, 122, 122, 1) 0%, rgba(143, 143, 143, 1) 12%, rgba(115, 115, 115, 1) 28%, rgba(69, 69, 69, 1) 98%, rgba(163, 163, 163, 1) 100%);
+   background: -ms-linear-gradient(top, rgba(122, 122, 122, 1) 0%, rgba(143, 143, 143, 1) 12%, rgba(115, 115, 115, 1) 28%, rgba(69, 69, 69, 1) 98%, rgba(163, 163, 163, 1) 100%);
+   background: linear-gradient(to bottom, rgba(122, 122, 122, 1) 0%, rgba(143, 143, 143, 1) 12%, rgba(115, 115, 115, 1) 28%, rgba(69, 69, 69, 1) 98%, rgba(163, 163, 163, 1) 100%);
+   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#7a7a7a', endColorstr='#a3a3a3', GradientType=0);
+ }
+ 
+ #iconContainer {
+   margin: 0 auto;
+   float: none;
+   text-align: center;
+ }
+ 
+ #weatherIcon {
+   font-size: 2em;
+ }
+ 
+ .overlay {
+   margin: 0 auto;
+   margin-top: 2em;
+   float: none;
+   background-color: rgba(0, 0, 0, 0.85)!important;
+   z-index: 9999;
+   color: white;
+ }
